@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Notes</title>
+
+    <link rel="stylesheet" href="{% static 'notes/style2.css' %}">
+
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="logo">
+        <a href="{% url 'home' %}">
+          Notes
+        </a>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="heading">
+        <p>CREATE A NOTE</p>
+      </div>
+      <form class="add_form" method="POST" action="{% url 'add' %}">{% csrf_token %}
+        <h4 style="float: left; margin: 0px; margin-left: 35px; font-family: Montserrat;">Title :</h4>{{ form.note_title }}
+        <h4 style="float: left; margin: 0px; margin-left: 35px; font-family: Montserrat;">Content :</h4>{{ form.note_text }}
+        <input class="add_btn" type="submit" name="add_btn" value="Add">
+      </form>
+    </div>
+    <div class="footer">
+      All rights reserved &copy
+      <br>
+      Made with &#10084; by Tushar. 2019
+    </div>
+
+  </body>
+</html>

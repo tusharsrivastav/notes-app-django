@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.header{
+  width: 100%;
+  height: 150px;
+  background: rgb(50, 50, 50);
+}
+.logo{
+  width: auto;
+  height: auto;
+  float: left;
+}
+.logo a{
+  float: left;
+  margin-left: 80px;
+  margin-top: 40px;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+.logo a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.new{
+  width: auto;
+  height: auto;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.new a{
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.1s;
+}
+.new a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.search_box{
+  width: auto;
+  height: auto;
+  float: right;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+.search_bar{
+  width: 200px;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  float: left;
+  border-radius: 15px 0px 0px 15px;
+  font-family: Poppins;
+  font-size: 15px
+}
+.search_btn{
+  width: auto;
+  height: 40px;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  text-align: center;
+  padding: 5px 10px 0px 10px;
+  font-size: 20px;
+  float: left;
+  font-family: Poppins;
+}
+.search_btn:hover{
+  background: rgb(131, 129, 129);
+  color: rgb(232, 232, 232);
+}
+
+.section{
+  width: 100%;
+  min-height: 450px;
+  padding: 0px;
+  float: left;
+}
+
+.message_box{
+  width: 90%;
+  padding: 0px;
+  float: left;
+  padding: 10px 0px;
+  margin: 10px 5% 0px 5%;
+}
+
+.content{
+  width: 90%;
+  min-height: 450px;
+  float: left;
+  margin: 30px 5%;
+  padding: 10px;
+  background: rgb(236, 236, 236);
+}
+
+.heading {
+  width: 80%;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+}
+.heading p {
+  margin:0px;
+  font-family: Montserrat;
+  font-size: 45px;
+  padding: 0px 20px;
+}
+
+.content_btns{
+  width: 20%;
+  height: auto;
+  padding: 10px 0px;
+  float: left;
+  margin-top: 10px;
+}
+
+.edit_delete_btn {
+  width: calc(50% - 15px);
+  height: 40px;
+  background: rgb(157, 155, 155);
+  border: none;
+  border-radius: 5px;
+  float: left;
+  margin: 0px 5px;
+  color: rgb(255, 255, 255);
+  transition: 0.1s;
+  text-align: center;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 18px;
+}
+.edit_delete_btn p {
+  cursor: pointer;
+  margin-top: 7px;
+}
+.edit_delete_btn:hover {
+  background: rgb(96, 96, 96);
+}
+
+.date{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.date p{
+  font-family: Poppins;
+  font-size: 20px;
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+.text{
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.footer{
+  width: 100%;
+  height: 140px;
+  float: left;
+  margin-top: 30px;
+  background: rgb(50, 50, 50);
+  font-size: 17px;
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 30px;
+  padding-top: 40px;
+}
